@@ -2,6 +2,8 @@
 
 Gemini APIとGoogle検索を使用して、最新の情報に基づいた回答を生成するMCPサーバーです。
 
+<a href="https://glama.ai/mcp/servers/5ydkuk88c7"><img width="380" height="200" src="https://glama.ai/mcp/servers/5ydkuk88c7/badge" alt="Gemini Search Server MCP server" /></a>
+
 ## 機能
 
 ### Tools
