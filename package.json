@@ -1,0 +1,29 @@
+{
+  "name": "geminiserch",
+  "version": "0.1.0",
+  "description": "geminiserchMCP",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "geminiserch": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "devDependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@types/node": "^20.17.10",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.7.9"
+  }
+}
